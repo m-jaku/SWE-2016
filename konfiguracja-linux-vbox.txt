@@ -1,0 +1,13 @@
+settings->network: bridged
+
+dmesg | grep eth
+sudo su -
+mcedit /etc/network/interfaces
+reboot
+
+ping 8.8.8.8
+
+sudo apt-get update
+sudo apt-get install git
+sudo apt-get install gcc
+
